@@ -32,9 +32,54 @@ footer: © TOP20TALENT, 2018. Proprietary and confidential.
 
 ---
 
+# [fit] THE MANY NAMES OF _BDD_?
+
+* "Outside in TDD"
+* "Acceptance Test-Driven Development" (ATDD) 
+* "Specification by Example"
+
+---
+
+# [fit] **BENEFITS** OF _BDD_
+
+* Focuses on business outcomes rather than implementation details
+* Tests the whole feature
+* Created a common language between business and development 
+* Promotes collaboration and shared artifacts
+* Allows "executable specs"
+
+---
+
 # [fit] _GHERKIN_ LANGUAGE
 
 ![inline](https://pacroy.github.io/uploads/tdd/given-when-then.jpg)
+
+---
+
+# [fit] **GIVEN**-_WHEN_-THEN
+
+Is a template for writing of acceptance criteria:
+
+* __(Given)__ some context
+* __(When)__ some action is carried out
+* __(Then)__ a particular set of observable consequences should obtain
+
+---
+
+# [fit] **GHERKIN** SCENARIO _EXAMPLE_
+
+```gherkin
+Feature: Blog
+    A site where you can publish your articles.
+    
+Scenario: Publishing an article
+    Given an author user 
+        And they have 2 articles  
+    When they publish a new article
+        And visit the articles page
+    Then there are 3 articles in the list
+        And the new article is on top
+```
 
 ---
 
