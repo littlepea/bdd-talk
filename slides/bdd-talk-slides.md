@@ -17,6 +17,22 @@ footer: © TOP20TALENT, 2018. Proprietary and confidential.
 
 ---
 
+## BACKGROUND
+
+Behavior-driven Development (or Acceptance Test-driven Development) is a powerful Agile engineering practice that compliments other Agile and XP practices such as TDD, Continuous Delivery, etc.
+
+BDD Scenarios are high-level feature tests acting as "Specification by Example" written in a Gherkin DSL which is accessible to non-technical team members (like Product Managers, QA, etc).
+
+In this talk, we'll explore:
+- what BDD is
+- what are its technical and team benefits 
+- what are the best Python tools for BDD (behave, pytest-bdd, cucumber)
+- how to use those tools and how to write BDD scenarios
+
+This will be a powerful new tool in your arsenal that you can bring back to your project and your team!
+
+---
+
 ## [fit] **TALK** _OUTLINE_
 
 * What is **BDD**?
